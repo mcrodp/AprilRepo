@@ -29,13 +29,13 @@ Route::get('/contact',function(){
     return view('page1.contact');
 });
 
-Route::get('/{id}','MyController1@show_front');
+//Route::get('/{id}','MyController1@show_front');
     
 Route::get('/', function(){
   return view('page1.front');
 });
 
-Route::get('/otherpage/{id}/{name}/{pw}','MyController1@just_show');
+//Route::get('/otherpage/{id}/{name}/{pw}','MyController1@just_show');
 
 
 
