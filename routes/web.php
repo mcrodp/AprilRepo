@@ -35,7 +35,7 @@ Route::get('/', function(){
   return view('page1.front');
 });
 
-Route::get('/otherpage/{id}/{name}/{pw}','MyController1@just_show');
+//Route::get('/otherpage/{id}/{name}/{pw}','MyController1@just_show');
 
 
 
